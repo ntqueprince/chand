@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHAND ❤</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="topHeader">
+    <div class="wrap headerWrap">
+      <div>
+        <h1 class="mainTitle">CHAND <span class="heart">❤</span></h1>
+        <p class="subTitle">Your main hub for all pages</p>
+      </div>
+
+      <div class="countBox">
+        <div class="countLabel">Total Links</div>
+        <div class="countNum" id="totalLinks">0</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <div class="wrap">
+
+      <!-- Search -->
+      <div class="searchBox">
+        <span class="searchIcon">🔎</span>
+        <input id="searchInput" type="text" placeholder="Search your page title..." />
+      </div>
+
+      <!-- Cards -->
+      <div class="grid" id="cardsGrid"></div>
+
+      <!-- Empty -->
+      <div class="emptyState" id="emptyState">
+        <div class="emptyEmoji">📌</div>
+        <h2>No Links Found</h2>
+        <p>Tap <b>➕ Add</b> to add your first link.</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Bottom Nav -->
+  <nav class="bottomNav">
+    <button class="navBtn" id="homeBtn">🏠<span>Home</span></button>
+    <button class="navBtn navBtnMain" id="addNewBtn">➕<span>Add</span></button>
+    <button class="navBtn" id="topBtn">⬆️<span>Top</span></button>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modalBackdrop" id="modalBackdrop">
+    <div class="modalBox">
+      <div class="modalTop">
+        <h2>Add New Page</h2>
+        <button class="closeBtn" id="closeModalBtn">✖</button>
+      </div>
+
+      <div class="modalBody">
+        <label>Title</label>
+        <input id="titleInput" type="text" placeholder="Example: Article 6" />
+
+        <label>Link URL</label>
+        <input id="urlInput" type="text" placeholder="https://example.com" />
+
+        <label>Short Code (2 letters)</label>
+        <input id="codeInput" type="text" placeholder="A6" maxlength="2" />
+
+        <button class="btn primary full" id="saveBtn">💾 Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
