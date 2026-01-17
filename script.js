@@ -9,6 +9,11 @@ let linksData = [
     title: "Human Diseases",
     url: "https://ntqueprince.github.io/human-diseases",
     code: "HD"
+  },
+   {
+    title: "bhagti-andolan",
+    url: "https://ntqueprince.github.io/bhagti-andolan",
+    code: "HD"
   }
 ];
 
