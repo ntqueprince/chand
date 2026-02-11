@@ -10,10 +10,16 @@ let linksData = [
     url: "https://ntqueprince.github.io/human-diseases",
     code: "HD"
   },
+  ,
+  {
+    title: "P$L",
+    url: "https://ntqueprince.github.io/pl",
+    code: "PL"
+  },
    {
     title: "bhagti-andolan",
     url: "https://ntqueprince.github.io/bhagti-andolan",
-    code: "HD"
+    code: "ba"
   }
 ];
 
