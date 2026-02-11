@@ -12,7 +12,7 @@ let linksData = [
   },
   ,
   {
-    title: "P$L",
+    title: "Profit and Loss",
     url: "https://ntqueprince.github.io/pl",
     code: "PL"
   },
